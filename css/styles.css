@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: ;
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#contact-form {
+  text-align: center;
+}
+#tasks-todo {
+  text-align: center;
+}
+.btn {
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #4646ee;
+}
+i {
+  margin-left: 1rem;
+}
+li {
+  list-style: none;
+}
+.completed {
+  text-decoration: line-through;
+}
