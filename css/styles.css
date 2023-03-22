@@ -21,6 +21,15 @@ h1 {
 #task {
   padding: 0.5rem;
 }
+.none {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: none;
+}
+.is-active {
+  display: block;
+}
 #tasks-todo {
   text-align: center;
 }
@@ -42,4 +51,7 @@ li {
 }
 .completed {
   text-decoration: line-through;
+}
+.down {
+  z-index: -1;
 }
