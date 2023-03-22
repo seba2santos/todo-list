@@ -31,4 +31,12 @@ d.addEventListener("submit", (e) => {
       $ul.removeChild(li);
     }
   });
+  d.addEventListener("click", (e) => {
+    const $tasks = d.querySelectorAll("li");
+    $tasks.forEach((task) => {
+      if (e.target === task) {
+        task.classList.toggle("completed");
+      }
+    });
+  });
 });
